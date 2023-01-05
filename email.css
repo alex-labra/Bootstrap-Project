@@ -1,0 +1,271 @@
+html body {
+  background-color: black;
+}
+
+.img {
+  margin-top: 1em;
+  border-radius: 10%;
+  width: 48.3vw;
+  height: 94.3vh;
+  opacity: 10%;
+  margin-left: 0.5em;
+}
+
+.offcanvasedit {
+  margin-top: 4em;
+  margin-bottom: 4em;
+  background: none;
+  width: 48vw !important;
+  border: none !important;
+}
+
+@media screen and (max-width: 1300px) {
+  .offcanvasedit {
+    width: 41.5vw !important;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .offcanvasedit {
+    width: 38.5vw !important;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .offcanvasedit {
+    width: 100vw !important;
+    background-color: #000000;
+    border-radius: 10%;
+  }
+
+  .offcanvasedit::before {
+    content: "";
+    background-image: url(media/anon.png);
+
+    background-repeat: no-repeat;
+    background-size: auto;
+    position: absolute;
+    background-position: center;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.1;
+  }
+
+}
+
+.box {
+  margin-top: 3em;
+  position: relative;
+  height: 590px;
+  margin-left: 1em;
+}
+
+.box2 {
+  position: relative;
+  width: 100%;
+  margin-left: 0.5em;
+}
+
+.box::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: -5%;
+  top: -5%;
+  width: 110%;
+  height: 110%;
+  opacity: 0.1;
+  background-image: url("media/whiteB.png");
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+  border-radius: 10%;
+  border: 2px solid #93f806;
+}
+
+.box2::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: -5%;
+  top: -5%;
+  width: 110%;
+  height: 110%;
+  opacity: 0.1;
+  background-image: url("media/whiteB.png");
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+  border-radius: 10%;
+  border: 2px solid #93f806;
+}
+
+.con {
+  margin: 0px;
+  min-width: 340px;
+}
+
+html::before {
+  content: "";
+  background-image: url(media/anon.png);
+
+  background-repeat: no-repeat;
+  background-size: auto;
+  position: fixed;
+  background-position: center;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  z-index: 0;
+  opacity: 0.1;
+}
+
+.dropdown-toggle {
+  outline: 0;
+}
+
+.nav-link {
+  border-radius: 0;
+}
+
+.scrollarea {
+  overflow-y: auto;
+}
+
+.lh-tight {
+  line-height: 1.25;
+}
+
+.search {
+  opacity: 0.6;
+}
+
+/*LOGIN PAGE FOR EMAIL*/
+
+
+.login-box {
+  border-radius: 8%;
+  box-shadow: 10px 10px 50px rgb(11, 236, 30);
+  position: relative;
+  z-index: 1;
+}
+
+.login-box::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.3;
+  background-image: url("media/green.jfif");
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+  z-index: -5;
+}
+
+.login-title {
+  padding: 10%;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 200%;
+  color: #a7e6bc;
+}
+
+.input-field {
+  padding: 4%;
+}
+
+.input-field input {
+  font-family: 'Times New Roman', Times, serif;
+  border: none;
+  outline: none;
+  padding: 5px 5px 2px 0px;
+  width: 100%;
+  font-size: 20px;
+  border-bottom: solid 2px #a7e6bc;
+  background: none;
+  color: #93f806;
+}
+
+.submit-button button {
+  border: none;
+  outline: none;
+  background: none;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 16px;
+
+}
+
+.submit-button {
+
+  display: flex;
+  align-items: center;
+  padding: 0 25px;
+  background-color: #a7e6bc;
+  border: 2px solid #111;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #111;
+  cursor: pointer;
+  animation: animation-shadow 5s infinite;
+
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
+}
+
+@keyframes animation-shadow {
+  8% {
+
+    box-shadow: rgba(0, 0, 0, .5) 0 0 0 1000000px inset;
+  }
+}
+
+.submit-button:after {
+  background-color: #111;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform .2s ease-out;
+  z-index: -2;
+}
+
+.submit-button:hover:after {
+  transform: translate(0, 0);
+}
+
+.submit-button:active {
+  background-color: #0bf551;
+  outline: 0;
+}
+
+.submit-button:hover {
+  outline: 0;
+}
+
+@media(min-width: 768px) {
+  .submit-button {
+    padding: 0 40px;
+  }
+}

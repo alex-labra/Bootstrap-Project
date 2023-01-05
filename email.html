@@ -1,0 +1,651 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="email.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!--Black sidebar down here-->
+    <div class="container-fluid con d-flex">
+        <div class="row">
+
+            <div class="col-lg-2 first-col d-flex align-items-center justify-content-center col-md-3 col-sm-5 col-5">
+
+                <div
+                    class="box2 d-flex flex-shrink-0 align-items-stretch flex-column flex-shrink-0 p-1 text-success bg-none">
+                    <a href="#" class="d-flex align-items-center text-decoration-none mb-3 text-success ">
+                        <span class="fs-4">Email</span>
+                    </a>
+
+                    <hr>
+
+                    <ul class="nav nav-pills flex-column mb-auto mt-auto align-items-center">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-success" aria-current="page">
+                                Inbox
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link text-success">
+
+                                Important
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link text-success">
+
+                                Sent
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link text-success">
+
+                                Drafts
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link text-success">
+
+                                Trash
+                            </a>
+                        </li>
+                    </ul>
+                    <hr>
+                    <div class="dropdown d-flex justify-content-center align-items-center">
+                        <!--bottom left dropdown menu-->
+                        <a href="#" class="d-flex align-items-center text-success text-decoration-none dropdown-toggle"
+                            id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="media/anon.png" alt="" width="32" height="32" class="rounded-circle me-2 ">
+                            <strong>Settings</strong>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark text-small shadow text-success"
+                            aria-labelledby="dropdownUser1">
+                            <li><a class="dropdown-item" href="#">Settings</a></li>
+                            <li><a class="dropdown-item" href="#">Change Theme</a></li>
+                            <li><a class="dropdown-item" href="#">Edit Profile</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Sign out</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+            <!--<div class="b-divider"></div> We split sidebars here-->
+
+            <!--second column-->
+
+            <!--Grid-->
+            <div class="col-md-4 col-lg-4 col-sm-7 col-7">
+
+                <div class="box d-flex flex-column align-items-stretch flex-shrink-0 bg-none text-success">
+
+                    <!--search bar here-->
+                    <div class=" input-group mb-3 ">
+
+                        <input type="text" class="search form-control text-black" aria-label="Small"
+                            aria-describedby="inputGroup-sizing-sm1" placeholder="Search Email...">
+                        <div class="input-group-prepend text-success">
+                            <span class="search input-group-text bg-success"
+                                id="inputGroup-sizing-sm"><strong>GO</strong></span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="list-group-flush scrollarea">
+
+                        <!--First email sample-->
+                        <div
+                            class="d-flex w-100 align-items-center justify-content-between text-success list-group-item list-group-item-action">
+                            <div class="btn-group-toggle " data-toggle="buttons">
+                                <label class="btn active btn-edit">
+                                    <input type="checkbox" checked autocomplete="off">
+                                    Mark Important
+                                </label>
+                            </div>
+                            <small>GMiS Info - Wed</small>
+                        </div>
+
+                        <a href="#" class="list-group-item list-group-item-action py-3 lh-tightbtn" type="button"
+                            data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling2"
+                            aria-controls="offcanvasScrolling">
+                            <div class="col-10 mb-1 small text-success">GMiS Info Sessions for DoD HBCU/MI Summer
+                                Internship Program!
+
+                            </div>
+                        </a>
+                        <hr>
+
+                        <!--2nd email sample-->
+                        <div
+                            class="d-flex w-100 align-items-center justify-content-between text-success list-group-item list-group-item-action">
+                            <div class="btn-group-toggle " data-toggle="buttons">
+                                <label class="btn active btn-edit">
+                                    <input type="checkbox" checked autocomplete="off">
+                                    Mark Important
+                                </label>
+                            </div>
+                            <small>Parts Geek - Mon</small>
+                        </div>
+
+                        <a href="#" class="list-group-item list-group-item-action py-3 lh-tightbtn" type="button"
+                            data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling"
+                            aria-controls="offcanvasScrolling">
+                            <div class="col-10 mb-1 small text-success">Tracking Update from Parts Geek LLC
+                            </div>
+                        </a>
+
+                        <hr>
+                        <!--3rd email sample-->
+
+                        <div
+                            class="d-flex w-100 align-items-center justify-content-between text-success list-group-item list-group-item-action">
+                            <div class="btn-group-toggle " data-toggle="buttons">
+                                <label class="btn active btn-edit">
+                                    <input type="checkbox" checked autocomplete="off">
+                                    Mark Important
+                                </label>
+                            </div>
+                            <small>Quincy Larson - 12/23/2022</small>
+                        </div>
+
+                        <a href="#" class="list-group-item list-group-item-action py-3 lh-tightbtn" type="button"
+                            data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling3"
+                            aria-controls="offcanvasScrolling">
+                            <div class="col-10 mb-1 small text-success">Learn to code by playing a video game [Free RPG
+                                game from freeCodeCamp]
+
+                            </div>
+                        </a>
+                        <hr>
+                        <!--4th email sample-->
+
+                        <div
+                            class="d-flex w-100 align-items-center justify-content-between text-success list-group-item list-group-item-action">
+                            <div class="btn-group-toggle " data-toggle="buttons">
+                                <label class="btn active btn-edit">
+                                    <input type="checkbox" checked autocomplete="off">
+                                    Mark Important
+                                </label>
+                            </div>
+                            <small>Abby F. - 12/21/2022</small>
+                        </div>
+
+                        <a href="#" class="list-group-item list-group-item-action py-3 lh-tightbtn" type="button"
+                            data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling4"
+                            aria-controls="offcanvasScrolling">
+                            <div class="col-10 mb-1 small text-success">Data/Marketing role!
+
+                            </div>
+                        </a>
+                        <hr>
+                        <!--5th email sample-->
+
+                        <div
+                            class="d-flex w-100 align-items-center justify-content-between text-success list-group-item list-group-item-action">
+                            <div class="btn-group-toggle " data-toggle="buttons">
+                                <label class="btn active btn-edit">
+                                    <input type="checkbox" checked autocomplete="off">
+                                    Mark Important
+                                </label>
+                            </div>
+                            <small>General Motors - 12/20/2022</small>
+                        </div>
+
+                        <a href="#" class="list-group-item list-group-item-action py-3 lh-tightbtn" type="button"
+                            data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling5"
+                            aria-controls="offcanvasScrolling">
+                            <div class="col-10 mb-1 small text-success">Software Engineering opportunity at General
+                                Motors, apply today!
+
+                            </div>
+                        </a>
+                        <hr>
+                        <!--6th email sample-->
+
+                        <div
+                            class="d-flex w-100 align-items-center justify-content-between text-success list-group-item list-group-item-action">
+                            <div class="btn-group-toggle " data-toggle="buttons">
+                                <label class="btn active btn-edit">
+                                    <input type="checkbox" checked autocomplete="off">
+                                    Mark Important
+                                </label>
+                            </div>
+                            <small>In-Shape - 12/18/2022</small>
+                        </div>
+
+                        <a href="#" class="list-group-item list-group-item-action py-3 lh-tightbtn" type="button"
+                            data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling6"
+                            aria-controls="offcanvasScrolling">
+                            <div class="col-10 mb-1 small text-success">Membership Hold Ending Soon
+
+                            </div>
+                        </a>
+                        <hr>
+                        <!--7th email sample-->
+
+                        <div
+                            class="d-flex w-100 align-items-center justify-content-between text-success list-group-item list-group-item-action">
+                            <div class="btn-group-toggle " data-toggle="buttons">
+                                <label class="btn active btn-edit">
+                                    <input type="checkbox" checked autocomplete="off">
+                                    Mark Important
+                                </label>
+                            </div>
+                            <small>General Parts - 12/18/2022</small>
+                        </div>
+
+                        <a href="#" class="list-group-item list-group-item-action py-3 lh-tightbtn" type="button"
+                            data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling"
+                            aria-controls="offcanvasScrolling">
+                            <div class="col-10 mb-1 small text-success">Your parts will be arriving soon! Do not miss
+                                them!
+                            </div>
+                        </a>
+                        <hr>
+                        <!--8th email sample-->
+
+                        <div
+                            class="d-flex w-100 align-items-center justify-content-between text-success list-group-item list-group-item-action">
+                            <div class="btn-group-toggle " data-toggle="buttons">
+                                <label class="btn active btn-edit">
+                                    <input type="checkbox" checked autocomplete="off">
+                                    Mark Important
+                                </label>
+                            </div>
+                            <small>Summer Internship - 12/17/2022</small>
+                        </div>
+
+                        <a href="#" class="list-group-item list-group-item-action py-3 lh-tightbtn" type="button"
+                            data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling2"
+                            aria-controls="offcanvasScrolling">
+                            <div class="col-10 mb-1 small text-success">Are you ready for this summer? We have the best
+                                internships ever.
+                            </div>
+                        </a>
+                        <hr>
+                        <!--9th email sample-->
+
+                        <div
+                            class="d-flex w-100 align-items-center justify-content-between text-success list-group-item list-group-item-action">
+                            <div class="btn-group-toggle " data-toggle="buttons">
+                                <label class="btn active btn-edit">
+                                    <input type="checkbox" checked autocomplete="off">
+                                    Mark Important
+                                </label>
+                            </div>
+                            <small>Central Coding - 12/15/2022</small>
+                        </div>
+
+                        <a href="#" class="list-group-item list-group-item-action py-3 lh-tightbtn" type="button"
+                            data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling3"
+                            aria-controls="offcanvasScrolling">
+                            <div class="col-10 mb-1 small text-success">Your coding career starts here! Learn to code
+                                with a few simple game coding challenges.
+                            </div>
+                        </a>
+                        <hr>
+                        <!--10 email sample-->
+
+                        <div
+                            class="d-flex w-100 align-items-center justify-content-between text-success list-group-item list-group-item-action">
+                            <div class="btn-group-toggle " data-toggle="buttons">
+                                <label class="btn active btn-edit">
+                                    <input type="checkbox" checked autocomplete="off">
+                                    Mark Important
+                                </label>
+                            </div>
+                            <small>Marketing Team - 12/15/2022</small>
+                        </div>
+
+                        <a href="#" class="list-group-item list-group-item-action py-3 lh-tightbtn" type="button"
+                            data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling4"
+                            aria-controls="offcanvasScrolling">
+                            <div class="col-10 mb-1 small text-success">There is a new role that I think you would be a
+                                great fit for.
+                            </div>
+                        </a>
+                        <hr>
+                        <!--11 email sample-->
+
+                        <div
+                            class="d-flex w-100 align-items-center justify-content-between text-success list-group-item list-group-item-action">
+                            <div class="btn-group-toggle " data-toggle="buttons">
+                                <label class="btn active btn-edit">
+                                    <input type="checkbox" checked autocomplete="off">
+                                    Mark Important
+                                </label>
+                            </div>
+                            <small>Hiring Team - 12/10/2022</small>
+                        </div>
+
+                        <a href="#" class="list-group-item list-group-item-action py-3 lh-tightbtn" type="button"
+                            data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling5"
+                            aria-controls="offcanvasScrolling">
+                            <div class="col-10 mb-1 small text-success">We think that this Software Engineering role
+                                would be a great fit for you.
+                            </div>
+                        </a>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+
+            <!--<div class="b-divider"></div> We split sidebars here-->
+
+            <div class="col-lg-6 d-flex col-md-5 d-none d-md-block">
+
+                <img class="img" src="media/whiteB.png" alt="background"></img>
+
+            </div>
+
+            <div class="modal-body">
+
+                <!--First email sample-->
+                <div class=" offcanvas offcanvas-end offcanvasedit text-success" data-bs-scroll="true"
+                    data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling2"
+                    aria-labelledby="offcanvasScrollingLabel" data-bs-dismiss="true">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasScrollingLabel2">GMiS Info Sessions for DoD HBCU/MI
+                            Summer Internship Program!
+                        </h5>
+                        <button type="button" class="btn text-success" data-bs-dismiss="offcanvas"
+                            aria-label="Close">Close</button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <p>Are you or do you know a U.S. Citizen student who is studying Science, Technology,
+                            Engineering or Mathematics (STEM) at an HBCU/MI?<br>
+                            Or, have you recently graduated from a STEM program at an HBCU/MI?<br>
+                            If so, spend a summer working with experts from the DoD and get paid for it all!<br><br>
+
+                            Applications are open until January 6, 2023, at 11:59 PM PST!<br><br>
+
+                            Department of Defense (DoD) Historically Black Colleges and Universities/Minority Serving
+                            Institutions (HBCU/MI) Summer Research Internship Program<br>
+
+                            DOD HBCU/MI Summer Research Internship Program participants are afforded the opportunity to
+                            perform advanced research that contributes to the world around them. This program provides
+                            experiences to explore the talents and interests of future scientists and engineers. It aims
+                            to increase the number of minority scientists and engineers working throughout the
+                            DoD.<br><br>
+                            Benefits include:<br><br>
+                            Bi-weekly stipend of $1200 per week<br>
+                            Travel and housing included<br>
+                            Gain valuable confidence and work experience<br>
+                            Learn in state-of-the-art research facilities<br>
+                            Explore your career path <br>
+                            Work side by side with DoD scientists and engineers<br><br>
+
+                            For more information and to apply, please visit<br><br>
+
+                            https://www.dodhbcumiinternship.com</p>
+                        <div class="d-flex input-group-prepend text-success">
+                            <span class="input-group-text bg-success"
+                                id="inputGroup-sizing-sm"><strong>REPLY</strong></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Second email sample-->
+                <div class=" offcanvas offcanvas-end offcanvasedit text-success" data-bs-scroll="true"
+                    data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling"
+                    aria-labelledby="offcanvasScrollingLabel" data-bs-dismiss="true">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Tracking Update from Parts Geek LLC
+                        </h5>
+                        <button type="button" class="btn d-flex text-success" data-bs-dismiss="offcanvas"
+                            aria-label="Close">Close</button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <p>Tracking Update from Parts Geek LLC,<br><br>
+
+                            The following item(s) from your order have shipped.<br><br>
+
+
+                            2018 Chevrolet Catalytic Converter - 912006 AP Exhaust - $395.97<br>
+                            Qty Ordered: 1, Qty Shipped: 1<br>
+                            392816594581<br>
+                            Shipped with FedEx on Dec 29, 2022<br><br>
+
+
+                            If you need to contact customer service, please open a support ticket on our customer
+                            service page.<br>
+
+                            * UPS tracking numbers begin with 1Z, FedEx numbers are 15 digits and don't include letters,
+                            US MAIL numbers are 20 digits long.<br>
+
+                            * Please note that ALL tracking information may not be available immediately or all at the
+                            same time.<br>
+
+                            * Please allow 24-48 hours after receiving the tracking number for the shipping carrier to
+                            update their web site.<br>
+
+                            * We do not offer weekend or holiday delivery. Any overnight or second day orders placed on
+                            Friday will not arrive until the following business day.<br>
+
+                            * If you receive a damaged package, You can either refuse the package or contact the
+                            shipping carrier to refuse the package. We are not responsible for the return of carrier
+                            damaged products.<br>
+
+                            * We have a 30 day return policy. No returns are accepted without a return authorization
+                            number. We will not accept any returns after 30 days, no exceptions.<br><br>
+
+
+                            Thank you,<br><br>
+
+                            Customer Service Team</p>
+                        <div class="d-flex input-group-prepend text-success">
+                            <span class="input-group-text bg-success"
+                                id="inputGroup-sizing-sm"><strong>REPLY</strong></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Third email sample-->
+                <div class=" offcanvas offcanvas-end offcanvasedit text-success" data-bs-scroll="true"
+                    data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling3"
+                    aria-labelledby="offcanvasScrollingLabel" data-bs-dismiss="true">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasScrollingLabel2">Learn to code by playing a video game
+                            [Free RPG game from freeCodeCamp]
+                        </h5>
+                        <button type="button" class="btn text-success" data-bs-dismiss="offcanvas"
+                            aria-label="Close">Close</button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <p>Here are this week's five links that are worth your time:<br><br>
+
+                            1. The freeCodeCamp community just dramatically expanded our Learn to Code RPG video game.
+                            Learn to Code RPG is an interactive visual novel game where you teach yourself to code, make
+                            friends in the tech industry, and pursue your dream of working as a developer. The game
+                            features a quirky cast of characters, a charming cat, and more than 1,000 computer science
+                            quiz questions. While working as a developer in the game, you can unlock more than 50
+                            achievements and 6 different endings. You can play the game on PC, Mac, Linux, and Android.
+                            I enjoyed working with Lynn, KayLa, and Nielda on this all year long. We're excited to get
+                            it to you in time for the holidays. Enjoy. (full-length video game):
+                            https://www.freecodecamp.org/news/learn-to-code-rpg-1-5-update/<br>
+
+                            2. Build your own SaaS (Software as a Service) app. In this beginner course taught by
+                            freeCodeCamp instructor Ania Kubów, you'll code your own PagerDuty clone project. This handy
+                            tool will notify you whenever one of your servers crashes. You'll learn PostgreSQL, the
+                            Stripe API, Twillio for notifications, and other powerful developer tools. (2 hour YouTube
+                            course): https://www.freecodecamp.org/news/how-to-build-your-own-saas-pagerduty-clone/<br>
+
+                            3. You may have heard about the GPT-3 and ChatGPT AI assistants, and how amazing they are at
+                            tasks like writing high school book reports. But how are they at coding? Well, programming
+                            book author and freeCodeCamp volunteer David Clinton sat down with ChatGPT for a pair
+                            programming session. He shares his thoughts on the quality of GPT's code, its limitations,
+                            and how effective it might be at helping developers. (10 minute read + 6 minute video):
+                            https://www.freecodecamp.org/news/pair-programming-with-the-chatgpt-ai-how-well-does-gpt-3-5-understand-bash/<br>
+
+                            4. Megan Kaczanowski has worked her way up the ranks in the field of information security.
+                            Not only has she written many infosec tutorials for the freeCodeCamp community over the
+                            years – she's also created this guide for people entering the field. It will help you plan
+                            your learning and understand the alphabet soup of certifications. She'll also give you tips
+                            on how to get involved in your local security community, and how to gear up for the infosec
+                            job search. (20 minute read):
+                            https://www.freecodecamp.org/news/how-to-get-your-first-job-in-infosec/<br>
+
+                            5. Learn how to code your own Santa Tracker app using Next.js and React Leaflet. User
+                            Experience Designer and freeCodeCamp volunteer Colby Fayock will walk you through how to
+                            code this front end app. You'll learn how to fetch Santa's flight plan, including arrival
+                            time, departure time, and coordinates. Then you can plot his entire evening's journey onto a
+                            world map. (20 minute read + 23 minute video):
+                            https://www.freecodecamp.org/news/how-to-build-a-santa-tracker-app-with-next-js-react-leaflet/<br><br>
+
+                            This is my final letter to you for 2022. I hope you've had a fun, insightful year. This has
+                            been an amazing year for the freeCodeCamp community. People are using freeCodeCamp more than
+                            ever. (People spent more than 4 billion minutes learning on freeCodeCamp this year!) We also
+                            launched major improvements to our curriculum, our Android app, and – of course – Learn to
+                            Code RPG.</p>
+                        <div class="d-flex input-group-prepend text-success">
+                            <span class="input-group-text bg-success"
+                                id="inputGroup-sizing-sm"><strong>REPLY</strong></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Fourth email sample-->
+                <div class=" offcanvas offcanvas-end offcanvasedit text-success" data-bs-scroll="true"
+                    data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling4"
+                    aria-labelledby="offcanvasScrollingLabel" data-bs-dismiss="true">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasScrollingLabel2">Data/Marketing role!
+                        </h5>
+                        <button type="button" class="btn text-success" data-bs-dismiss="offcanvas"
+                            aria-label="Close">Close</button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <p>Hey Alex,<br><br>
+
+                            I’m Abby, and I wanted to let you know about this new, remote Digital Marketing/Data Analyst
+                            role with Lands' End. Their hiring team is interested in you and asked me if you could
+                            apply!<br>
+
+                            Lands' End is looking for candidates interested in the Computer Science field to join their
+                            team and get a unique opportunity mixing Digital Marketing and Data Analytics. You'll learn
+                            and grow with their team through being mentored in both data analytics and digital marketing
+                            by industry experts.<br>
+
+                            Interested? Apply here to get your application infront of their hiring team ASAP.<br>
+
+                            Click here to learn more & apply.<br><br>
+
+                            Best,<br>
+                            Abby F.<br><br>
+
+                            Job Matchmaker | WayUp<br><br>
+
+                            Did you get hired using WayUp? Let us know!</p>
+                        <div class="d-flex input-group-prepend text-success">
+                            <span class="input-group-text bg-success"
+                                id="inputGroup-sizing-sm"><strong>REPLY</strong></span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!--Fifth email sample-->
+            <div class=" offcanvas offcanvas-end offcanvasedit text-success" data-bs-scroll="true"
+                data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling5"
+                aria-labelledby="offcanvasScrollingLabel" data-bs-dismiss="true">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasScrollingLabel2">Software Engineering opportunity at
+                        General Motors, apply today!
+                    </h5>
+                    <button type="button" class="btn text-success" data-bs-dismiss="offcanvas"
+                        aria-label="Close">Close</button>
+                </div>
+                <div class="offcanvas-body">
+                    <p>Hi Alex,<br><br>
+
+                        My name is Laura and I work as a Talent Sourcing Strategist at General Motors. I came across
+                        your profile and think you may be a fit for our Entry-Level Software Engineering Rotational
+                        Program opportunity.<br>
+
+                        The start button to an all-electric future has been pushed!<br>
+
+                        We are moving closer to a world with zero emissions by expanding our lineup of electric
+                        vehicles. We’re looking for adventure-seekers and imaginative thought leaders to help us
+                        transform mobility and put everyone in an EV. <br>
+
+                        Join us to advance our vision of an all-electric future. Apply below!<br>
+
+                        Want to learn more about our diversity and inclusion goals, what we offer, and why you should
+                        join GM? Check out our career site.<br>
+
+                        Looking forward to your application,<br><br>
+
+                        Laura del Amo (She/Her/Hers)<br><br>
+
+                        Check out the opportunities below to apply:<br><br>
+
+                        Entry-Level Software Engineering Rotational Program<br><br>
+                        Looking for a new opportunity? Click here to see all our open roles!</p>
+                    <div class="d-flex input-group-prepend text-success">
+                        <span class="input-group-text bg-success"
+                            id="inputGroup-sizing-sm"><strong>REPLY</strong></span>
+                    </div>
+                </div>
+            </div>
+
+            <!--Sixth email sample-->
+            <div class=" offcanvas offcanvas-end offcanvasedit text-success" data-bs-scroll="true"
+                data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling6"
+                aria-labelledby="offcanvasScrollingLabel" data-bs-dismiss="true">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasScrollingLabel2">Membership Hold Ending Soon
+                    </h5>
+                    <button type="button" class="btn text-success" data-bs-dismiss="offcanvas"
+                        aria-label="Close">Close</button>
+                </div>
+                <div class="offcanvas-body">
+                    <p>Alex,<br><br>
+
+                        We miss you! The hold on your In-Shape membership will be ending soon and your account will
+                        reactivate on the first of the month. We look forward to seeing you at the club so you can get
+                        back to your fitness routine.<br><br>
+
+                        If you're not quite ready to come back, we understand. You can modify your hold (remove or
+                        extend) through the In-Shape Mobile App or Member Hub. Holds are limited to six months within
+                        the last year. For instructions, please click here.<br><br>
+
+                        Thank you,<br><br>
+
+                        In-Shape Member Services</p>
+                    <div class="d-flex input-group-prepend text-success">
+                        <span class="input-group-text bg-success"
+                            id="inputGroup-sizing-sm"><strong>REPLY</strong></span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!--</main>-->
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+
+    <script src="email.js"></script>
+</body>
+
+</html>>
