@@ -18,7 +18,34 @@
     <div class="container-fluid con d-flex">
         <div class="row">
 
-            <div class="col-lg-2 first-col d-flex align-items-center justify-content-center col-md-3 col-sm-5 col-5">
+            <div class="firstbox">
+                <div class="dropdown d-flex justify-content-center align-items-center">
+                    <!--bottom left dropdown menu-->
+                    <a href="#" class="d-flex align-items-center text-success text-decoration-none dropdown-toggle"
+                        id="dropdownXS" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="media/anon.png" alt="" width="32" height="32" class="rounded-circle me-2 ">
+                        <strong>MENU</strong>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark text-small shadow text-success"
+                        aria-labelledby="dropdownUser1">
+                        <li><a class="dropdown-item" href="#">Inbox</a></li>
+                        <li><a class="dropdown-item" href="#">Important</a></li>
+                        <li><a class="dropdown-item" href="#">Sent</a></li>
+                        <li><a class="dropdown-item" href="#">Drafts</a></li>
+                        <li><a class="dropdown-item" href="#">Trash</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Settings</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Sign out</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-2 first-col d-flex align-items-center justify-content-center col-md-3 col-sm-5">
 
                 <div
                     class="box2 d-flex flex-shrink-0 align-items-stretch flex-column flex-shrink-0 p-1 text-success bg-none">
@@ -87,7 +114,7 @@
             <!--second column-->
 
             <!--Grid-->
-            <div class="col-md-4 col-lg-4 col-sm-7 col-7">
+            <div class="col-md-4 col-lg-4 col-sm-7">
 
                 <div class="box d-flex flex-column align-items-stretch flex-shrink-0 bg-none text-success">
 
@@ -112,7 +139,7 @@
                             <div class="btn-group-toggle " data-toggle="buttons">
                                 <label class="btn active btn-edit">
                                     <input type="checkbox" checked autocomplete="off">
-                                    Mark Important
+                                    Important
                                 </label>
                             </div>
                             <small>GMiS Info - Wed</small>
@@ -134,7 +161,7 @@
                             <div class="btn-group-toggle " data-toggle="buttons">
                                 <label class="btn active btn-edit">
                                     <input type="checkbox" checked autocomplete="off">
-                                    Mark Important
+                                    Important
                                 </label>
                             </div>
                             <small>Parts Geek - Mon</small>
@@ -155,7 +182,7 @@
                             <div class="btn-group-toggle " data-toggle="buttons">
                                 <label class="btn active btn-edit">
                                     <input type="checkbox" checked autocomplete="off">
-                                    Mark Important
+                                    Important
                                 </label>
                             </div>
                             <small>Quincy Larson - 12/23/2022</small>
@@ -177,7 +204,7 @@
                             <div class="btn-group-toggle " data-toggle="buttons">
                                 <label class="btn active btn-edit">
                                     <input type="checkbox" checked autocomplete="off">
-                                    Mark Important
+                                    Important
                                 </label>
                             </div>
                             <small>Abby F. - 12/21/2022</small>
@@ -198,7 +225,7 @@
                             <div class="btn-group-toggle " data-toggle="buttons">
                                 <label class="btn active btn-edit">
                                     <input type="checkbox" checked autocomplete="off">
-                                    Mark Important
+                                    Important
                                 </label>
                             </div>
                             <small>General Motors - 12/20/2022</small>
@@ -220,7 +247,7 @@
                             <div class="btn-group-toggle " data-toggle="buttons">
                                 <label class="btn active btn-edit">
                                     <input type="checkbox" checked autocomplete="off">
-                                    Mark Important
+                                    Important
                                 </label>
                             </div>
                             <small>In-Shape - 12/18/2022</small>
@@ -241,7 +268,7 @@
                             <div class="btn-group-toggle " data-toggle="buttons">
                                 <label class="btn active btn-edit">
                                     <input type="checkbox" checked autocomplete="off">
-                                    Mark Important
+                                    Important
                                 </label>
                             </div>
                             <small>General Parts - 12/18/2022</small>
@@ -262,7 +289,7 @@
                             <div class="btn-group-toggle " data-toggle="buttons">
                                 <label class="btn active btn-edit">
                                     <input type="checkbox" checked autocomplete="off">
-                                    Mark Important
+                                    Important
                                 </label>
                             </div>
                             <small>Summer Internship - 12/17/2022</small>
@@ -283,7 +310,7 @@
                             <div class="btn-group-toggle " data-toggle="buttons">
                                 <label class="btn active btn-edit">
                                     <input type="checkbox" checked autocomplete="off">
-                                    Mark Important
+                                    Important
                                 </label>
                             </div>
                             <small>Central Coding - 12/15/2022</small>
@@ -304,7 +331,7 @@
                             <div class="btn-group-toggle " data-toggle="buttons">
                                 <label class="btn active btn-edit">
                                     <input type="checkbox" checked autocomplete="off">
-                                    Mark Important
+                                    Important
                                 </label>
                             </div>
                             <small>Marketing Team - 12/15/2022</small>
@@ -325,7 +352,7 @@
                             <div class="btn-group-toggle " data-toggle="buttons">
                                 <label class="btn active btn-edit">
                                     <input type="checkbox" checked autocomplete="off">
-                                    Mark Important
+                                    Important
                                 </label>
                             </div>
                             <small>Hiring Team - 12/10/2022</small>
@@ -392,7 +419,7 @@
 
                             https://www.dodhbcumiinternship.com</p>
                         <div class="d-flex input-group-prepend text-success">
-                            <span class="input-group-text bg-success"
+                            <span class="btn input-group-text bg-success" data-bs-toggle="offcanvas" data-bs-target="#offcanvasreply"
                                 id="inputGroup-sizing-sm"><strong>REPLY</strong></span>
                         </div>
                     </div>
@@ -446,10 +473,10 @@
                             Thank you,<br><br>
 
                             Customer Service Team</p>
-                        <div class="d-flex input-group-prepend text-success">
-                            <span class="input-group-text bg-success"
-                                id="inputGroup-sizing-sm"><strong>REPLY</strong></span>
-                        </div>
+                            <div class="d-flex input-group-prepend text-success">
+                                <span class="btn input-group-text bg-success" data-bs-toggle="offcanvas" data-bs-target="#offcanvasreply"
+                                    id="inputGroup-sizing-sm"><strong>REPLY</strong></span>
+                            </div>
                     </div>
                 </div>
 
@@ -510,10 +537,10 @@
                             ever. (People spent more than 4 billion minutes learning on freeCodeCamp this year!) We also
                             launched major improvements to our curriculum, our Android app, and – of course – Learn to
                             Code RPG.</p>
-                        <div class="d-flex input-group-prepend text-success">
-                            <span class="input-group-text bg-success"
-                                id="inputGroup-sizing-sm"><strong>REPLY</strong></span>
-                        </div>
+                            <div class="d-flex input-group-prepend text-success">
+                                <span class="btn input-group-text bg-success" data-bs-toggle="offcanvas" data-bs-target="#offcanvasreply"
+                                    id="inputGroup-sizing-sm"><strong>REPLY</strong></span>
+                            </div>
                     </div>
                 </div>
 
@@ -549,10 +576,10 @@
                             Job Matchmaker | WayUp<br><br>
 
                             Did you get hired using WayUp? Let us know!</p>
-                        <div class="d-flex input-group-prepend text-success">
-                            <span class="input-group-text bg-success"
-                                id="inputGroup-sizing-sm"><strong>REPLY</strong></span>
-                        </div>
+                            <div class="d-flex input-group-prepend text-success">
+                                <span class="btn input-group-text bg-success" data-bs-toggle="offcanvas" data-bs-target="#offcanvasreply"
+                                    id="inputGroup-sizing-sm"><strong>REPLY</strong></span>
+                            </div>
                     </div>
                 </div>
 
@@ -595,10 +622,10 @@
 
                         Entry-Level Software Engineering Rotational Program<br><br>
                         Looking for a new opportunity? Click here to see all our open roles!</p>
-                    <div class="d-flex input-group-prepend text-success">
-                        <span class="input-group-text bg-success"
-                            id="inputGroup-sizing-sm"><strong>REPLY</strong></span>
-                    </div>
+                        <div class="d-flex input-group-prepend text-success">
+                            <span class="btn input-group-text bg-success" data-bs-toggle="offcanvas" data-bs-target="#offcanvasreply"
+                                id="inputGroup-sizing-sm"><strong>REPLY</strong></span>
+                        </div>
                 </div>
             </div>
 
@@ -626,11 +653,42 @@
                         Thank you,<br><br>
 
                         In-Shape Member Services</p>
-                    <div class="d-flex input-group-prepend text-success">
-                        <span class="input-group-text bg-success"
-                            id="inputGroup-sizing-sm"><strong>REPLY</strong></span>
-                    </div>
+                        <div class="d-flex input-group-prepend text-success">
+                            <span class="btn input-group-text bg-success" data-bs-toggle="offcanvas" data-bs-target="#offcanvasreply"
+                                id="inputGroup-sizing-sm"><strong>REPLY</strong></span>
+                        </div>
                 </div>
+            </div>
+
+            <!--REPLY OFFCANVAS-->
+
+            <div class="offcanvas offcanvasreply" data-bs-scroll="true" tabindex="-1" id="offcanvasreply" aria-labelledby="offcanvasWithBothOptionsLabel">
+                
+                <div class="card border-success mb-3" style="max-width: 100%; height: 100%;">
+                    
+                    <div class="card-header border-success d-flex align-items-center justify-content-center">
+                        <div class="btn-group btn-group-lg" role="group" aria-label="Large button group">
+                            
+                            <button type="button" class="btn btn-outline-dark border-success text-success">Highlight</button>
+                            <button type="button" class="btn btn-outline-dark border-success text-success">bold</button>
+                            <button type="button" class="btn btn-outline-dark border-success text-success">Italic</button>
+                    
+                          </div>
+                    </div>
+                    
+                    <div class="card-body text-success">
+                        <div class="form-floating">
+                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                            <label for="floatingTextarea2">Type Email...</label>
+                        </div>
+                    </div>
+                    
+                    <div class="card-footer border-success">
+                        <button type="button" class="btn btn-success">Send</button>
+                    </div>
+
+                  </div>
+
             </div>
 
         </div>
